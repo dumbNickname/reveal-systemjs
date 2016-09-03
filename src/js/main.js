@@ -1,1 +1,1 @@
-import Reveal from './revealWrapper'
+import Reveal from './revealWrapper';

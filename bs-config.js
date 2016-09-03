@@ -1,4 +1,3 @@
-
 /*
  |--------------------------------------------------------------------------
  | Browser-sync config file
@@ -22,7 +21,7 @@ module.exports = {
     'files': false,
     'watchOptions': {},
     'server': {
-        baseDir: './src',
+        baseDir: '.',
         directory: false
     },
     'proxy': false,

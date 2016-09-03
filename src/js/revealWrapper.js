@@ -1,6 +1,6 @@
-import rawReveal from '../vendor/reveal/js/reveal'
+import Reveal from '../vendor/reveal/js/reveal'; // eslint-disable-line no-unused-vars
 
-window.Reveal.initialize({
+Reveal.initialize({
     controls: true,
     progress: true,
     history: true,
@@ -9,4 +9,4 @@ window.Reveal.initialize({
     transition: 'cube' // default/cube/page/concave/zoom/linear/fade/none
 });
 
-export window.Reveal;
+export default Reveal;

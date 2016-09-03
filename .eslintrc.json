@@ -4,5 +4,9 @@
     "plugins": [
         "standard",
         "promise"
-    ]
+    ],
+    "rules": {
+        "indent": ["error", 4],
+        "semi": ["error", "always"]
+    }
 }
