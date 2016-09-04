@@ -1,4 +1,4 @@
-import Reveal from '../vendor/reveal/js/reveal'; // eslint-disable-line no-unused-vars
+import Reveal from 'reveal';
 
 Reveal.initialize({
     controls: true,

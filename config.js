@@ -19,6 +19,7 @@ System.config({
         'core-js': 'npm:core-js@1.2.7',
         'css': 'github:systemjs/plugin-css@0.1.27',
         'json': 'github:systemjs/plugin-json@0.1.2',
+        'reveal': 'github:hakimel/reveal.js@3.3.0',
         'text': 'github:systemjs/plugin-text@0.0.8',
         'github:jspm/nodelibs-assert@0.1.0': {
             'assert': 'npm:assert@1.4.1'
@@ -79,5 +80,5 @@ System.config({
         'npm:vm-browserify@0.0.4': {
             'indexof': 'npm:indexof@0.0.1'
         }
-  }
+    }
 });
